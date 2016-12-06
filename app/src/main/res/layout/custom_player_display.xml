@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_player"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        app:cardBackgroundColor="#f0f7f0"
+        app:cardCornerRadius="30dp"
+
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/mImage_player"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_gravity="left"
+            android:src="@drawable/ipl_logo"/>
+        <TextView
+            android:id="@+id/player_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:maxLines="1"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="140dp"
+            android:layout_below="@id/mImage_player"
+            android:text="player_name"
+            android:textColor="#000"
+            android:textSize="@dimen/text_size"/>
+    </android.support.v7.widget.CardView>
+<!--
+        <TextView
+            android:id="@+id/player_dob"
+            android:layout_below="@id/player_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_centerHorizontal="true"
+            android:maxLines="1"
+            android:text="player_dob"
+            android:textColor="#000"
+            android:textSize="@dimen/text_size"/>
+        <TextView
+            android:id="@+id/player_role"
+            android:layout_below="@id/player_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_centerHorizontal="true"
+            android:maxLines="1"
+            android:text="player_role"
+            android:textColor="#000"
+            android:textSize="@dimen/text_size"/>
+        <TextView
+            android:id="@+id/player_batting_style"
+            android:layout_below="@id/player_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_centerHorizontal="true"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:text="player_batting_style"
+            android:textColor="#000"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/player_bowling_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@id/player_batting_style"
+            android:maxLines="1"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:text="player_bowling_style"
+            android:textColor="#000"
+            android:textSize="@dimen/text_size"/>
+
+        <TextView
+            android:id="@+id/player_nationality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@id/player_bowling_style"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="player_nationality"
+            android:textColor="#000"
+            android:textSize="@dimen/text_size"/>-->
+
+
+
+
+
+</RelativeLayout>

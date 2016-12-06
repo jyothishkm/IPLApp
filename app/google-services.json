@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "594917536259",
+    "firebase_url": "https://ipl-app-de785.firebaseio.com",
+    "project_id": "ipl-app-de785",
+    "storage_bucket": "ipl-app-de785.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594917536259:android:e81eafe44f1732e0",
+        "android_client_info": {
+          "package_name": "com.example.bridgeit.ipl_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594917536259-8ld72ifrs6lhrgbaj49kf0c9kl23u3al.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bridgeit.ipl_app",
+            "certificate_hash": "CC1059C06D1A7EC1B4622B46646C539BB700976F"
+          }
+        },
+        {
+          "client_id": "594917536259-cuivml6o78vjsnudi9e0bqol0ai463pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwLPSO9ztq-bb6AkvNb97rsR18sJ5C_vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594917536259-cuivml6o78vjsnudi9e0bqol0ai463pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
